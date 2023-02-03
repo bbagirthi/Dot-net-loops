@@ -1,0 +1,24 @@
+using System;
+
+namespace CheckNumber
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a number:");
+            int number = int.Parse(Console.ReadLine());
+
+            if (number > 5)
+            {
+                Console.WriteLine("The number is greater than 5.");
+            }
+            else
+            {
+                Console.WriteLine("The number is less than or equal to 5.");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}

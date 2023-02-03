@@ -1,0 +1,19 @@
+using System;
+
+namespace WhileLoopExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int counter = 1;
+            Console.WriteLine("Numbers from 1 to 10: ");
+            while (counter <= 10)
+            {
+                Console.WriteLine(counter);
+                counter++;
+            }
+            Console.ReadLine();
+        }
+    }
+}
